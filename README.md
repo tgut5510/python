@@ -1,2 +1,1 @@
-# calculator
-four function python calculator
+# python 3
