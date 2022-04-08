@@ -6,13 +6,18 @@ def fibSearch(num):
     elif(num == 1):
         return 1
     else:
-        return (fibSearch(num - 2)+ fibSearch(num - 1))
+        return (fibSearch(num - 2) + fibSearch(num - 1))
 
 # end function
 
 # start with 0 then travel until input value
-num = int(input("\nPlease enter range value: "))
+num = int(input("please enter range value: "))
 
 # search then display sequence
 for Num in range(0, num):
     print(fibSearch(Num))
+    
+# fun joke
+print("how does fibonacci introduce himself? ")
+
+print("hello, hello my, hello my name, hello my name is, hello my name is fibonacci!")
