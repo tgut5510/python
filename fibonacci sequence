@@ -1,4 +1,4 @@
-# fibonacci sequence recursive function implementation
+# fibonacci sequence implementation
 
 def fibSearch(num):
     if(num == 0):
