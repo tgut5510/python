@@ -1,7 +1,11 @@
+# function
+
 def count(num):
   if num >= 1:
     count(num - 1)
     fizz_buzz(num)
+    
+# function
 
 def fizz_buzz(num):
   if num % 15 == 0:
